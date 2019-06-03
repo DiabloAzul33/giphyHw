@@ -10,7 +10,6 @@ for (var i = 0; i < topics.length; i++) {
 $("#submit").on("click", function (event) {
     event.preventDefault();
     var search = $("#search").val();
-    console.log("google sux!");
     var b = $("<button class='gif'>");
     b.attr("data-tv-show", search);
     b.text(search);
